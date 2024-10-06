@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input, button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.check-in-info {
+    flex-grow: 1;
+}
+
+.check-in-actions {
+    display: flex;
+    align-items: center;
+}
+
+.delete-btn, .edit-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 2px 4px;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 2px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* 在文件末尾添加以下样式 */
+
+.large-button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+    width: auto;
+    display: inline-block;
+    margin-left: 0;
+}
+
+#courseStatus {
+    text-align: left;
+}
